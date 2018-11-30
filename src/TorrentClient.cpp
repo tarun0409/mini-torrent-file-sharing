@@ -21,12 +21,14 @@ int TorrentClient::connect_to_server(string ip_address, int port_number)
     int sock = socket(AF_INET,SOCK_STREAM,0);
     if(sock < 0)
     {
-        cout<<"\nError while creating socket\n";
+        string log_string = "Error while creating socket";
+        log(log_string);
     }
     server = gethostbyname(ip_address.c_str());
     if(server==NULL)
     {
-        cout<<"\nNo such host identified\n";
+        string log_string = "No such host identified";
+        log(log_string);
     }
     bzero((char *) &server_ip, sizeof(server_ip));
     server_ip.sin_family = AF_INET;
@@ -34,7 +36,8 @@ int TorrentClient::connect_to_server(string ip_address, int port_number)
     server_ip.sin_port = htons(port_number);
     if(connect(sock,(struct sockaddr *) &server_ip, sizeof(server_ip)) < 0)
     {
-        cout<<"\nConnection to server failed\n";
+        string log_string = "Connection to server failed";
+        log(log_string);
     }
 
     return sock;
@@ -63,11 +66,15 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
         return;
         close(server_socket);
     }
-    cout<<"\nFile is available"<<endl;
+
+    string log_string = "File is available";
+    log(log_string);
+
     w_fd = open(destination_file.c_str(),O_WRONLY);    
     for(int i=0; i<piece_hashes.size(); i++)
     {
-        cout<<"\nRequesting for hash : "<<piece_hashes[i]<<endl;
+        string log_string = "Requesting for hash : "+piece_hashes[i];
+        log(log_string);
 
         write(server_socket, piece_hashes[i].c_str(), piece_hashes[i].length());
         bzero(buff, 255);
@@ -78,7 +85,8 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
             continue;
         }
         
-        cout<<"\nPiece is available\n";
+        string log_string = piece_hashes[i] + " is available";
+        log(log_string);
         
         write(server_socket, piece_hashes[i].c_str(), piece_hashes[i].length());
 
@@ -89,11 +97,6 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
         string reply = "OK";
         write(server_socket, reply.c_str(), reply.length());
 
-        // char input_buff[PIECE_SIZE+1];
-        // bzero(input_buff, (PIECE_SIZE+1));
-
-        // size_t total_bytes = 0;
-        // size_t bytes_read = read(server_socket, input_buff, PIECE_SIZE);
         off_t offset = i*PIECE_SIZE;
         lseek(w_fd, offset, SEEK_SET);
 
@@ -105,16 +108,11 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
             write(w_fd, single_buff, 1);
         }
 
-        // while(bytes_read > 0)
-        // {
-        //     total_bytes += bytes_read;
-        //     write(w_fd, input_buff, bytes_read);
-        //     bzero(input_buff, (PIECE_SIZE+1));
-        //     bytes_read = read(server_socket, input_buff, PIECE_SIZE);
-        // }
-
-        cout<<"\nReceived "<<bytes_to_be_read<<" B  from the server\n";
+        string log_string = "Received : "+to_string(bytes_to_be_read)+" B from the server";
+        log(log_string);
 
     }
+    string reply = "close";
+    write(server_socket, reply.c_str(), reply.length());
     close(w_fd);
 }

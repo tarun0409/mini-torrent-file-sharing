@@ -21,8 +21,7 @@ void TorrentServer::handle_client(int client_socket)
     read(client_socket, buffer, 255);
     string file_name = buffer;
 
-    cout<<"\n\nClient asked for : "<<file_name<<endl;
-
+    
     if(file_exists(file_name))
     {
         string reply = "AVAILABLE";
@@ -38,6 +37,7 @@ void TorrentServer::handle_client(int client_socket)
             bzero(buffer, 255);
             read(client_socket, buffer, 255);
             string client_string = buffer;
+
             if(client_string.compare("close"))
             {
                 string piece_hash = buffer;
@@ -46,7 +46,10 @@ void TorrentServer::handle_client(int client_socket)
                 bzero(buffer, 255);
                 read(client_socket, buffer, 255);
                 piece_hash = buffer;
-                cout<<"\nHash requested : "<<piece_hash<<endl;
+
+                string log_string = "Hash requested : "+piece_hash;
+                log(log_string);
+
                 char * file_piece_ptr = get_file_piece(ti, piece_hash);
                 if(file_piece_ptr == NULL)
                 {
@@ -66,7 +69,13 @@ void TorrentServer::handle_client(int client_socket)
                     break;
                 }
                 write(client_socket, file_piece.c_str(), file_piece.length());
-                cout<<"\nSize of file sent : "<<file_piece.length()<<endl;
+
+                string log_string = "Size of file sent : "+to_string(file_piece.length());
+                log(log_string);
+            }
+            else
+            {
+                status = "close";
             }
         }
         close(client_socket);
@@ -76,7 +85,9 @@ void TorrentServer::handle_client(int client_socket)
         string reply = "UNAVAILABLE";
         write(client_socket, reply.c_str(), reply.length());
     }
-    cout<<"\nThread "<<this_thread::get_id()<<" exiting peacefully\n";
+
+    string log_string = "Thread exiting peacefully";
+    log(log_string);
 }
 
 void TorrentServer::start_torrent_server(string ip_address, int port_number)
@@ -87,7 +98,8 @@ void TorrentServer::start_torrent_server(string ip_address, int port_number)
     init_socket = socket(AF_INET, SOCK_STREAM, 0);
     if(init_socket < 0)
     {
-        cout<<"Process: "<<getpid()<<" "<<"Error while creating file socket\n";
+        string log_string = "Error while creating file socket";
+        log(log_string);
         exit(1);
     }
     bzero((char *)(&server_address), sizeof(server_address));
@@ -96,19 +108,25 @@ void TorrentServer::start_torrent_server(string ip_address, int port_number)
     server_address.sin_port = htons(port_number);
     if( bind(init_socket, (struct sockaddr *) &server_address, sizeof(server_address)) < 0 )
     {
-        cout<<"Process: "<<getpid()<<" "<<"Unable to bind to file server address!\n";
+        string log_string = "Unable to bind to file server address!";
+        log(log_string);
         exit(1);
     }
     listen(init_socket,4);
     client_length = sizeof(client_address);
     int thread_count = 0;
     thread t;
-    while( (client_socket = accept(init_socket, (struct sockaddr *) &client_address, &client_length)) )
+    while( true )
     {
-        cout<<"\n\nNew connection received\n\n";
+        client_socket = accept(init_socket, (struct sockaddr *) &client_address, &client_length);
+        
+        string log_string = "New connection received. Socket : "+to_string(client_socket);
+        log(log_string);
+        
         t =  thread(&TorrentServer::handle_client,this,client_socket);
     }
    
     close(init_socket);
-    cout<<"\n\n"<<getpid()<<" exiting peacefully\n"<<"\n\n";
+    string log_string = "Server exiting peacefully";
+    log(log_string);
 }

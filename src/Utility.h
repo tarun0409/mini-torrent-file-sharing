@@ -5,7 +5,7 @@
 #include<vector>
 #include "TorrentInfo.h"
 
-std::string create_torrent_file(std::string file_path, std::vector<std::string> tracker_ips);
+std::string create_torrent_file(std::string file_path, std::string torrent_file_name, std::vector<std::string> tracker_ips);
 std::vector<std::string> split_string(std::string input_string, char delimiter);
 std::string get_torrent_file_name(std::string file_path);
 size_t get_file_size(std::string file_path);
@@ -15,5 +15,7 @@ TorrentInfo get_torrent_info(std::string torrent_file_name);
 void print_torrent_info(TorrentInfo ti);
 bool file_exists(std::string file_name);
 char * get_file_piece(TorrentInfo ti, std::string piece_hash);
+void update_file_path_in_torrent_file(std::string torrent_file_path, std::string destination_file_path);
+void log(std::string data);
 
 #endif

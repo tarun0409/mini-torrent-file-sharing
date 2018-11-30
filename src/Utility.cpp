@@ -151,32 +151,15 @@ TorrentInfo get_torrent_info(string torrent_file_name)
     return ti;
 }
 
-string create_torrent_file(string file_path, vector<string> tracker_ips)
+void write_torrent_file(string torrent_file_path, TorrentInfo ti)
 {
-    int r_fd = open(file_path.c_str(),O_RDONLY);
-    if(r_fd < 0)
-    {
-      cout<<"\nFile does not exist/No permissions on file\n";
-      return NULL;
-    }
-
-    /*open torrent file to write*/
     mode_t mode = 0777 & ~umask(0);
-    string torrent_file_name = get_torrent_file_name(file_path);
-    cout<<endl<<torrent_file_name<<endl;
-    int w_fd = open(torrent_file_name.c_str(),(O_WRONLY | O_CREAT | O_TRUNC),mode);
-    if(w_fd < 0)
-    {
-      cout<<"\nCould not create torrent file\n";
-      return NULL;
-    }
+    int w_fd = open(torrent_file_path.c_str(),(O_WRONLY | O_CREAT | O_TRUNC),mode);
 
-    /*add tracket info */
-
-    for(int i=0; i<tracker_ips.size(); i++)
+    for(int i=0; i<ti.tracker_ips.size(); i++)
     {
-        write(w_fd, tracker_ips[i].c_str(), tracker_ips[i].length());
-        int no_of_trackers = tracker_ips.size();
+        write(w_fd, ti.tracker_ips[i].c_str(), ti.tracker_ips[i].length());
+        int no_of_trackers = ti.tracker_ips.size();
         if(i!=(no_of_trackers-1))
         {
             write(w_fd, " ", 1);
@@ -184,33 +167,63 @@ string create_torrent_file(string file_path, vector<string> tracker_ips)
     }
     write(w_fd, "\n", 1);
 
-
-    /*write file name into the torrent file*/
-    write(w_fd, file_path.c_str(), file_path.length());
+    write(w_fd, ti.file_name.c_str(), ti.file_name.length());
     write(w_fd, "\n", 1);
 
+    string size_string = to_string(ti.file_size);
+    write(w_fd, size_string.c_str(), size_string.length());
+    write(w_fd, "\n", 1);
+
+    for(int i=0; i<ti.piece_hashes.size(); i++)
+    {
+        write(w_fd, ti.piece_hashes[i].c_str(), ti.piece_hashes[i].length());
+        if(i!=(ti.piece_hashes.size() - 1))
+        {
+            write(w_fd, " ", 1);
+        }
+    }
+    write(w_fd, "\n", 1);
+
+    write(w_fd, ti.file_hash.c_str(), ti.file_hash.length());
+
+    close(w_fd);
+}
+
+void update_file_path_in_torrent_file(string torrent_file_path, string destination_file_path)
+{
+    TorrentInfo ti = get_torrent_info(torrent_file_path);
+    ti.file_name = destination_file_path;
+    write_torrent_file(torrent_file_path, ti);
+}
+
+
+string create_torrent_file(string file_path, string torrent_file_name, vector<string> tracker_ips)
+{
+    int r_fd = open(file_path.c_str(),O_RDONLY);
+    if(r_fd < 0)
+    {
+        string log_string = "File does not exist/No permissions on file";
+        log(log_string);
+        return NULL;
+    }
+    TorrentInfo ti;
+
+    /*add tracket info */
+    ti.tracker_ips = tracker_ips;
+
+    /*write file name into the torrent file*/
+    file_path = get_absolute_file_path(file_path);
+    ti.file_name = file_path;
 
     /* get file size and convert to string and write to file*/
     size_t file_size_t = get_file_size(file_path);
-    string file_size_string = to_string(file_size_t);
-    write(w_fd, file_size_string.c_str(), file_size_string.length());
-    write(w_fd, "\n", 1);
+    ti.file_size = file_size_t;
 
-
-    /*get no of pieces*/
-    size_t last_piece_size = file_size_t%PIECE_SIZE;
-    int no_of_pieces = file_size_t/PIECE_SIZE;
-    no_of_pieces++;
-    if(last_piece_size==0)
-    {
-      last_piece_size = PIECE_SIZE;
-      no_of_pieces--;
-    }
-
+    vector<string> piece_hashes;
     char buffer[PIECE_SIZE];
     SHA_CTX ctx;
     SHA1_Init(&ctx);
-    SHA1_Update(&ctx, file_path.c_str(), file_path.length());
+    //SHA1_Update(&ctx, file_path.c_str(), file_path.length());
     bzero(buffer,PIECE_SIZE);
     size_t bytes_read = read(r_fd, buffer, PIECE_SIZE);
     while( bytes_read > 0 )
@@ -220,20 +233,21 @@ string create_torrent_file(string file_path, vector<string> tracker_ips)
       bzero(hash,SHA_DIGEST_LENGTH);
       SHA1((unsigned const char *)buffer, bytes_read, hash);
       string hash_hex = get_hash_hex(hash);
+      piece_hashes.push_back(hash_hex);
       SHA1_Update(&ctx, buffer, bytes_read);
-      write(w_fd, hash_hex.c_str(), hash_hex.length());
-      write(w_fd, " ", 1);
       bzero(buffer,PIECE_SIZE);
       bytes_read = read(r_fd, buffer, PIECE_SIZE);
     }
+
+    ti.piece_hashes = piece_hashes;
+
     unsigned char full_hash[SHA_DIGEST_LENGTH];
     bzero(full_hash,SHA_DIGEST_LENGTH);
     SHA1_Final(full_hash, &ctx);
     string hash_hex = get_hash_hex(full_hash);
-    write(w_fd,"\n",1);
-    write(w_fd, hash_hex.c_str(), hash_hex.length());
-    close(r_fd);
-    close(w_fd);
+    ti.file_hash = hash_hex;
+
+    write_torrent_file(torrent_file_name, ti);
     return torrent_file_name;
 }
 
@@ -279,3 +293,12 @@ char * get_file_piece(TorrentInfo ti, string piece_hash)
     return buff;
 }
 
+void log(string data)
+{
+    mode_t mode = 0777 & ~umask(0);
+    int w_fd = open("log.txt",(O_WRONLY | O_CREAT | O_APPEND),mode);
+    write(w_fd, "\n", 1);
+    write(w_fd, data.c_str(), data.length());
+    write(w_fd, "\n", 1);
+    close(w_fd);
+}
