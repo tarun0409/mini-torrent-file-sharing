@@ -1,0 +1,138 @@
+
+Starting file sharing server at 127.0.0.1:7000
+
+New connection received. Socket : 4
+
+File is available
+
+Requesting for hash : 2f2daf88cd743df74ad8d78b971efc7dbf0f3463
+
+2f2daf88cd743df74ad8d78b971efc7dbf0f3463 is available
+
+Hash requested : 2f2daf88cd743df74ad8d78b971efc7dbf0f3463
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : c50970283c6fc5fa51bc3740b885be8719c9165c
+
+c50970283c6fc5fa51bc3740b885be8719c9165c is available
+
+Hash requested : c50970283c6fc5fa51bc3740b885be8719c9165c
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 795bf837ba72940b1645037d9931205ef373a1e3
+
+795bf837ba72940b1645037d9931205ef373a1e3 is available
+
+Hash requested : 795bf837ba72940b1645037d9931205ef373a1e3
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 7feca517efa5828faeac0e31412714980587d7ab
+
+7feca517efa5828faeac0e31412714980587d7ab is available
+
+Hash requested : 7feca517efa5828faeac0e31412714980587d7ab
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 61827bc672562bbbc5c7d8721623e53e664b9ba7
+
+61827bc672562bbbc5c7d8721623e53e664b9ba7 is available
+
+Hash requested : 61827bc672562bbbc5c7d8721623e53e664b9ba7
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : be7748017cb7d605c2138095a224ab5f2a5b6253
+
+be7748017cb7d605c2138095a224ab5f2a5b6253 is available
+
+Hash requested : be7748017cb7d605c2138095a224ab5f2a5b6253
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 06d56e0021ded04fc6f602ca25ce17f48cf48832
+
+06d56e0021ded04fc6f602ca25ce17f48cf48832 is available
+
+Hash requested : 06d56e0021ded04fc6f602ca25ce17f48cf48832
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 95fd912a626e9306eee0652b86d2fafc718d17a6
+
+95fd912a626e9306eee0652b86d2fafc718d17a6 is available
+
+Hash requested : 95fd912a626e9306eee0652b86d2fafc718d17a6
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 2f25b8e18e7756462c618d0cc3e55f9764898727
+
+2f25b8e18e7756462c618d0cc3e55f9764898727 is available
+
+Hash requested : 2f25b8e18e7756462c618d0cc3e55f9764898727
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 4acebb17b654cd7e1aa0552130d59bc6ce20ffc1
+
+4acebb17b654cd7e1aa0552130d59bc6ce20ffc1 is available
+
+Hash requested : 4acebb17b654cd7e1aa0552130d59bc6ce20ffc1
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 0f1e70266b120512ff09d55d60d2065e30e77370
+
+0f1e70266b120512ff09d55d60d2065e30e77370 is available
+
+Hash requested : 0f1e70266b120512ff09d55d60d2065e30e77370
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : c3975a33047f3158a2b428e50de247d420f98697
+
+c3975a33047f3158a2b428e50de247d420f98697 is available
+
+Hash requested : c3975a33047f3158a2b428e50de247d420f98697
+
+Size of file sent : 524288
+
+Received : 524288 B from the server
+
+Requesting for hash : 1d0dc72f57ed0ca8b30edf6a68343383695d0628
+
+1d0dc72f57ed0ca8b30edf6a68343383695d0628 is available
+
+Hash requested : 1d0dc72f57ed0ca8b30edf6a68343383695d0628
+
+Size of file sent : 196894
+
+Received : 196894 B from the server
+
+Thread exiting peacefully

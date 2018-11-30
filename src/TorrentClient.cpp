@@ -85,7 +85,7 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
             continue;
         }
         
-        string log_string = piece_hashes[i] + " is available";
+        log_string = piece_hashes[i] + " is available";
         log(log_string);
         
         write(server_socket, piece_hashes[i].c_str(), piece_hashes[i].length());
@@ -108,7 +108,7 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
             write(w_fd, single_buff, 1);
         }
 
-        string log_string = "Received : "+to_string(bytes_to_be_read)+" B from the server";
+        log_string = "Received : "+to_string(bytes_to_be_read)+" B from the server";
         log(log_string);
 
     }

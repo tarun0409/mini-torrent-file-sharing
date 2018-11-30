@@ -70,7 +70,7 @@ void TorrentServer::handle_client(int client_socket)
                 }
                 write(client_socket, file_piece.c_str(), file_piece.length());
 
-                string log_string = "Size of file sent : "+to_string(file_piece.length());
+                log_string = "Size of file sent : "+to_string(file_piece.length());
                 log(log_string);
             }
             else

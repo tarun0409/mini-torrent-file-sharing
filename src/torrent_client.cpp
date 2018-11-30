@@ -45,11 +45,15 @@ int main(int argc, char * argv[])
     thread server_thread = thread(&start_server, server_ip, port_number);
 
     string command = "enter";
-    
+    thread t;
     while(command.compare("exit"))
     {
         cout<<"$";
         getline(cin,command);
+        if(!command.compare("exit"))
+        {
+            break;
+        }
         vector<string> command_split = split_string(command, ' ');
         string op_code = command_split[0];
         if(!op_code.compare("share"))
@@ -74,7 +78,8 @@ int main(int argc, char * argv[])
             }
             string torrent_file = command_split[1];
             string destination_file = command_split[2];
-            
+            t = thread(&start_client, server_ip, port_number, torrent_file, destination_file);
+            cout<<"\nStarted!\n";
         }
     }
 }
