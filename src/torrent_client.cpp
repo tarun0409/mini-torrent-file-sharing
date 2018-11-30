@@ -46,7 +46,7 @@ int main(int argc, char * argv[])
 
     string command = "enter";
     thread t;
-    while(command.compare("exit"))
+    while(true)
     {
         cout<<"$";
         getline(cin,command);

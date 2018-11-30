@@ -6,6 +6,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <ctime>
 #include <openssl/sha.h>
 #include "Utility.h"
 #include "TorrentInfo.h"
@@ -298,6 +299,9 @@ void log(string data)
     mode_t mode = 0777 & ~umask(0);
     int w_fd = open("log.txt",(O_WRONLY | O_CREAT | O_APPEND),mode);
     write(w_fd, "\n", 1);
+    time_t now = time(0);
+    string time_string = ctime(&now);
+    write(w_fd, time_string.c_str(), time_string.length());
     write(w_fd, data.c_str(), data.length());
     write(w_fd, "\n", 1);
     close(w_fd);
