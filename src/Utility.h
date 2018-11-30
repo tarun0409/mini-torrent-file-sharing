@@ -14,6 +14,6 @@ std::string get_absolute_file_path(std::string file_path);
 TorrentInfo get_torrent_info(std::string torrent_file_name);
 void print_torrent_info(TorrentInfo ti);
 bool file_exists(std::string file_name);
-std::string get_file_piece(TorrentInfo ti, std::string piece_hash);
+char * get_file_piece(TorrentInfo ti, std::string piece_hash);
 
 #endif

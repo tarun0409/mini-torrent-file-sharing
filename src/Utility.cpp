@@ -255,7 +255,7 @@ void print_torrent_info(TorrentInfo ti)
     cout<<"\nFile hash : "<<ti.file_hash<<endl;
 }
 
-string get_file_piece(TorrentInfo ti, string piece_hash)
+char * get_file_piece(TorrentInfo ti, string piece_hash)
 {
     vector<string> piece_hashes = ti.piece_hashes;
     int i = 0;
@@ -271,13 +271,11 @@ string get_file_piece(TorrentInfo ti, string piece_hash)
     int r_fd = open(file_name.c_str(), O_RDONLY);
     if(r_fd < 0)
     {
-        return "";
+        return NULL;
     }
     lseek(r_fd, offset, SEEK_SET);
-    char buff[PIECE_SIZE+1];
-    bzero(buff, (PIECE_SIZE+1));
+    char * buff = (char *)calloc((PIECE_SIZE+1), sizeof(char));
     read(r_fd, buff, PIECE_SIZE);
-    string file_piece = buff;
-    return file_piece;
+    return buff;
 }
 

@@ -20,6 +20,9 @@ void TorrentServer::handle_client(int client_socket)
     bzero(buffer, 255);
     read(client_socket, buffer, 255);
     string file_name = buffer;
+
+    cout<<"\n\nClient asked for : "<<file_name<<endl;
+
     if(file_exists(file_name))
     {
         string reply = "AVAILABLE";
@@ -38,8 +41,32 @@ void TorrentServer::handle_client(int client_socket)
             if(client_string.compare("close"))
             {
                 string piece_hash = buffer;
-                string file_piece = get_file_piece(ti, piece_hash);
+                string reply = "AVAILABLE";
+                write(client_socket, reply.c_str(), reply.length());
+                bzero(buffer, 255);
+                read(client_socket, buffer, 255);
+                piece_hash = buffer;
+                cout<<"\nHash requested : "<<piece_hash<<endl;
+                char * file_piece_ptr = get_file_piece(ti, piece_hash);
+                if(file_piece_ptr == NULL)
+                {
+                    string status = "UNAVAILABLE";
+                    write(client_socket, status.c_str(), status.length());
+                } 
+                string file_piece = file_piece_ptr;
+
+                string size_string = to_string(file_piece.length());
+                write(client_socket, size_string.c_str(), size_string.length());
+
+                bzero(buffer, 255);
+                read(client_socket, buffer, 255);
+                reply = buffer;
+                if(reply.compare("OK"))
+                {
+                    break;
+                }
                 write(client_socket, file_piece.c_str(), file_piece.length());
+                cout<<"\nSize of file sent : "<<file_piece.length()<<endl;
             }
         }
         close(client_socket);
