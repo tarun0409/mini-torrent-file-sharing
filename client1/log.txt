@@ -1,0 +1,36 @@
+
+Sun Dec  2 18:45:28 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 18:45:56 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 18:46:43 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 18:47:41 2018
+Connection to server failed
+
+Sun Dec  2 18:48:50 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 18:49:09 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 19:34:28 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 19:34:30 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 19:40:50 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 19:41:18 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 19:43:39 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 19:44:24 2018
+Starting file sharing server at 127.0.0.1:8001

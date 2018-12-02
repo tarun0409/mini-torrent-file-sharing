@@ -7,12 +7,15 @@
 #include "Utility.h"
 #include "TorrentServer.h"
 #include "TorrentClient.h"
+#include "TrackerClient.h"
+// #include "TorrentUtility.h"
 
 using namespace std;
 
 void start_server(string server_ip, int port_number)
 {
     TorrentServer ts;
+    // ts.set_torrent_utility(tu);
     
     string log_string = "Starting file sharing server at "+server_ip+":"+to_string(port_number);
     log(log_string);
@@ -22,6 +25,7 @@ void start_server(string server_ip, int port_number)
 void start_client(string server_ip, int port_number, string torrent_file, string destination_path)
 {
     TorrentClient tc;
+    // tc.set_torrent_utility(tu);
     int server_socket = tc.connect_to_server(server_ip, port_number);
     tc.get_file(server_socket, torrent_file, destination_path);
 }
@@ -33,6 +37,7 @@ int main(int argc, char * argv[])
         cout<<"\n\nEnter ip and port\n";
         exit(1);
     }
+    // TorrentUtility * tu = new TorrentUtility();
     string server_ip_string = argv[1];
     vector<string> server_ip_split = split_string(server_ip_string, ':');
     string server_ip = server_ip_split[0];
@@ -48,7 +53,7 @@ int main(int argc, char * argv[])
     thread t;
     while(true)
     {
-        cout<<"$";
+        // cout<<"$";
         getline(cin,command);
         if(!command.compare("exit"))
         {
@@ -66,6 +71,20 @@ int main(int argc, char * argv[])
             string file_name = command_split[1];
             string torrent_file_name = command_split[2];
             create_torrent_file(file_name, torrent_file_name, tracker_ips);
+
+            TrackerClient tr;
+            int ss = tr.connect_to_tracker(tracker_ips[0]);
+            tr.add_ip_address(ss, file_name, server_ip_string);
+
+            TorrentInfo ti = get_torrent_info(torrent_file_name);
+            // TorrentEntry * te = new TorrentEntry();
+            // te->file_hash = ti.file_hash;
+            // te->available_hashes = ti.piece_hashes;
+            // te->status = Status::SEEDING;
+            // te->torrent_file_path = torrent_file_name;
+            // vector<TorrentEntry *> v;
+            // v.push_back(te);
+            // tu->save_torrent_entries(v);
 
             cout<<"\nTorrent file create successfully\n";
         }

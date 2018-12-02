@@ -11,6 +11,7 @@
 
 #include "TorrentServer.h"
 #include "Utility.h"
+// #include "TorrentUtility.h"
 
 using namespace std;
 
@@ -130,3 +131,8 @@ void TorrentServer::start_torrent_server(string ip_address, int port_number)
     string log_string = "Server exiting peacefully";
     log(log_string);
 }
+
+// void TorrentServer::set_torrent_utility(TorrentUtility * tu)
+// {
+//     this->torrent_utility = tu;
+// }

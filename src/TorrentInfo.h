@@ -16,4 +16,19 @@ typedef struct
 
 }TorrentInfo;
 
+enum class Status
+{
+    SEEDING,
+    LEECHING
+};
+
+typedef struct
+{
+    std::string file_hash;
+    std::string torrent_file_path;
+    Status status;
+    std::vector<std::string> available_hashes;
+
+}TorrentEntry;
+
 #endif

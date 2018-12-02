@@ -10,7 +10,7 @@
 #include <fcntl.h>
 #include "TorrentClient.h"
 #include "Utility.h"
-#include "TorrentInfo.h"
+// #include "TorrentInfo.h"
 
 using namespace std;
 
@@ -116,3 +116,8 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
     write(server_socket, reply.c_str(), reply.length());
     close(w_fd);
 }
+
+// void TorrentClient::set_torrent_utility(TorrentUtility * tu)
+// {
+//     this->torrent_utility = tu;
+// }
