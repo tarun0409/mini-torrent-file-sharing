@@ -50,7 +50,7 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
     size_t file_size = ti.file_size;
     vector<string> piece_hashes = ti.piece_hashes;
     mode_t mode = 0777 & ~umask(0);
-    int w_fd = open(destination_file.c_str(),(O_WRONLY | O_CREAT | O_TRUNC));
+    int w_fd = open(destination_file.c_str(),(O_WRONLY | O_CREAT | O_TRUNC), mode);
     for(int i=0; i<file_size; i++)
     {
         write(w_fd, "0", 1);
@@ -70,7 +70,7 @@ void TorrentClient::get_file(int server_socket, string torrent_file_name, string
     string log_string = "File is available";
     log(log_string);
 
-    w_fd = open(destination_file.c_str(),O_WRONLY);    
+    w_fd = open(destination_file.c_str(),O_WRONLY, mode);    
     for(int i=0; i<piece_hashes.size(); i++)
     {
         string log_string = "Requesting for hash : "+piece_hashes[i];

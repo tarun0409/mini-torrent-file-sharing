@@ -301,3 +301,57 @@ tracker_entries.txt does not exist. Returning an empty array
 
 Sun Dec  2 19:44:28 2018
 Going to write 1into tracker_entries.txt
+
+Sun Dec  2 20:25:22 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:25:22 2018
+Request from client : add_entry
+
+Sun Dec  2 20:25:22 2018
+Entry from client : source/file1.txt;127.0.0.1:8000
+
+Sun Dec  2 20:25:22 2018
+Locked on tracker_file_lock from save_tracker_entries
+
+Sun Dec  2 20:25:22 2018
+Locked on tracker_file_lock from get_tracker_entries
+
+Sun Dec  2 20:25:22 2018
+tracker_entries.txt does not exist. Returning an empty array
+
+Sun Dec  2 20:25:22 2018
+Going to write 1into tracker_entries.txt
+
+Sun Dec  2 20:27:28 2018
+New connection received. Socket : 5
+
+Sun Dec  2 20:27:28 2018
+Request from client : add_entry
+
+Sun Dec  2 20:27:28 2018
+Entry from client : source/file2.txt;127.0.0.1:8001
+
+Sun Dec  2 20:27:28 2018
+Locked on tracker_file_lock from save_tracker_entries
+
+Sun Dec  2 20:27:28 2018
+Locked on tracker_file_lock from get_tracker_entries
+
+Sun Dec  2 20:27:28 2018
+tracker_entries.txt does not exist. Returning an empty array
+
+Sun Dec  2 20:27:28 2018
+Going to write 2into tracker_entries.txt
+
+Sun Dec  2 20:38:30 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:38:30 2018
+Request from client : get_ip_addresses
+
+Sun Dec  2 20:38:30 2018
+Locked on tracker_file_lock from get_tracker_entries
+
+Sun Dec  2 20:38:30 2018
+tracker_entries.txt does not exist. Returning an empty array

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -13,6 +14,26 @@
 #include "Utility.h"
 
 using namespace std;
+
+vector<string> TrackerClient::get_ip_addresses(int server_socket, string file_name)
+{
+    write(server_socket, "get_ip_addresses", 16);
+    char buff[255];
+    bzero(buff, 255);
+    read(server_socket, buff, 255);
+    string reply = buff;
+    
+    write(server_socket, file_name.c_str(), file_name.length());
+    bzero(buff, 255);
+    read(server_socket, buff, 255);
+    reply = buff;
+    if(reply.compare("UNAVAILABLE"))
+    {
+        return split_string(reply, ',');
+    }
+    vector<string> v;
+    return v;
+}
 
 void TrackerClient::add_ip_address(int server_socket, string file_name, string ip_address)
 {

@@ -148,6 +148,43 @@ void TorrentTracker::handle_client(int client_socket)
         save_tracker_entries(xxx);
         write(client_socket, "OK", 2);
     }
+    else if(!request.compare("get_ip_addresses"))
+    {
+        write(client_socket, "OK", 2);
+        bzero(buffer, 255);
+        read(client_socket, buffer, 255);
+        string hash = buffer;
+
+        vector<TrackerEntry> tes = get_tracker_entries();
+        bool available = false;
+        for(int i=0; i<tes.size(); i++)
+        {
+            TrackerEntry te = tes[i];
+            if(!te.file_name.compare(hash))
+            {
+                available = true;
+                unordered_set<string> ips = te.ip_addresses;
+                int j = 0;
+                int s = ips.size();
+                string ret_string = "";
+                for(unordered_set<string>::iterator it = ips.begin(); it!=ips.end(); ++it)
+                {
+                    string ip = *it;
+                    ret_string+=ip;
+                    if(j!=(s-1))
+                    {
+                        ret_string+=",";
+                    }
+                }
+                write(client_socket, ret_string.c_str(), ret_string.length());
+                break;
+            }
+        }
+        if(!available)
+        {
+            write(client_socket, "UNAVAILABLE", 11);
+        }
+    }
     close(client_socket);
 }
 

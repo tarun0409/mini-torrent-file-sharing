@@ -96,8 +96,32 @@ int main(int argc, char * argv[])
                 continue;
             }
             string torrent_file = command_split[1];
+            TorrentInfo ti = get_torrent_info(torrent_file);
             string destination_file = command_split[2];
-            t = thread(&start_client, server_ip, port_number, torrent_file, destination_file);
+            string file_server = "";
+            int port = -1;
+            TrackerClient tc;
+            int ss = tc.connect_to_tracker(tracker_ips[0]);
+            string file_name = ti.file_name;
+            vector<string> ips = tc.get_ip_addresses(ss, file_name);
+            for(int i=0; i<ips.size(); i++)
+            {
+                string ip = ips[i];
+                if(ip.compare(server_ip))
+                {
+                    vector<string> ip_split = split_string(ip, ':');
+                    file_server = ip_split[0];
+                    port = stoi(ip_split[1]);
+                    break;
+                }
+            }
+            if(file_server.empty())
+            {
+                file_server = server_ip;
+                port = port_number;
+            }
+
+            t = thread(&start_client, file_server, port, torrent_file, destination_file);
             cout<<"\nStarted!\n";
         }
     }

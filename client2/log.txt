@@ -4,3 +4,6 @@ Starting file sharing server at 127.0.0.1:8001
 
 Sun Dec  2 18:48:03 2018
 Connection to server failed
+
+Sun Dec  2 20:27:20 2018
+Starting file sharing server at 127.0.0.1:8001

@@ -34,3 +34,1521 @@ Starting file sharing server at 127.0.0.1:8000
 
 Sun Dec  2 19:44:24 2018
 Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 20:24:34 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:24:56 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 20:25:41 2018
+File does not exist/No permissions on file
+
+Sun Dec  2 20:25:57 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 20:26:14 2018
+File does not exist/No permissions on file
+
+Sun Dec  2 20:26:48 2018
+Starting file sharing server at 127.0.0.1:8001
+
+Sun Dec  2 20:28:24 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:28:33 2018
+File is available
+
+Sun Dec  2 20:28:33 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:28:33 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:28:33 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:28:33 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:33 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:33 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:28:33 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:28:33 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:28:33 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:33 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:33 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:28:33 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:28:33 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:28:33 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:34 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:34 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:28:34 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:28:34 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:28:34 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:34 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:34 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:28:34 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:28:34 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:28:34 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:35 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:35 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:28:35 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:28:35 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:28:35 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:35 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:35 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:28:35 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:28:35 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:28:35 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:35 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:35 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:28:35 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:28:35 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:28:35 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:36 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:36 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:28:36 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:28:36 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:28:36 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:36 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:36 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:28:36 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:28:36 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:28:36 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:37 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:37 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:28:37 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:28:37 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:28:37 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:37 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:37 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:28:37 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:28:37 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:28:37 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:28:37 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:28:37 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:28:37 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:28:37 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:28:37 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:28:37 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:28:37 2018
+Thread exiting peacefully
+
+Sun Dec  2 20:31:09 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:31:12 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:31:14 2018
+File is available
+
+Sun Dec  2 20:31:14 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:31:14 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:31:14 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:31:14 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:14 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:14 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:31:14 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:31:14 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:31:14 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:15 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:15 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:31:15 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:31:15 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:31:15 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:15 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:15 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:31:15 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:31:15 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:31:15 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:16 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:16 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:31:16 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:31:16 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:31:16 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:16 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:16 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:31:16 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:31:16 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:31:16 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:16 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:16 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:31:16 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:31:16 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:31:16 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:17 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:17 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:31:17 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:31:17 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:31:17 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:17 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:17 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:31:17 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:31:17 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:31:17 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:18 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:18 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:31:18 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:31:18 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:31:18 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:18 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:18 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:31:18 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:31:18 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:31:18 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:18 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:18 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:31:18 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:31:18 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:31:18 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:31:19 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:31:19 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:31:19 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:31:19 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:31:19 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:31:19 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:31:19 2018
+Thread exiting peacefully
+
+Sun Dec  2 20:32:04 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:04 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:14 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:14 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:17 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:17 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:33 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:33 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:35 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:35 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:36 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:36 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:36 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:36 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:37 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:37 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:37 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:37 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:38 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:38 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:38 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:38 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:38 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:38 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:39 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:39 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:39 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:39 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:40 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:40 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:40 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:40 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:40 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:40 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:41 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:41 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:41 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:41 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:42 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:42 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:42 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:42 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:43 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:43 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:43 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:43 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:43 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:43 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:44 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:44 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:44 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:44 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:45 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:45 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:45 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:45 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:45 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:45 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:49 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:49 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:50 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:50 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:32:51 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:32:51 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:33:19 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:33:23 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:33:24 2018
+File is available
+
+Sun Dec  2 20:33:24 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:33:24 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:33:24 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:33:24 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:25 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:25 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:33:25 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:33:25 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:33:25 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:25 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:25 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:33:25 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:33:25 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:33:25 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:26 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:26 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:33:26 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:33:26 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:33:26 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:26 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:26 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:33:26 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:33:26 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:33:26 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:26 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:26 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:33:26 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:33:26 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:33:26 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:27 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:27 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:33:27 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:33:27 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:33:27 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:27 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:27 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:33:27 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:33:27 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:33:27 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:28 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:28 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:33:28 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:33:28 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:33:28 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:28 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:28 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:33:28 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:33:28 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:33:28 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:28 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:28 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:33:28 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:33:28 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:33:28 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:29 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:29 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:33:29 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:33:29 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:33:29 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:33:29 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:33:29 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:33:29 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:33:29 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:33:29 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:33:29 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:33:29 2018
+Thread exiting peacefully
+
+Sun Dec  2 20:34:28 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:28 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:29 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:29 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:30 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:30 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:39 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:39 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:40 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:40 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:41 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:41 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:42 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:42 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:42 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:42 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:43 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:43 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:45 2018
+Starting file sharing server at 127.0.0.1:8000
+
+Sun Dec  2 20:34:45 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:34:59 2018
+Starting file sharing server at 127.0.0.1:8002
+
+Sun Dec  2 20:35:03 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:35:13 2018
+File is available
+
+Sun Dec  2 20:35:13 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:35:13 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:35:13 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:35:13 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:13 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:13 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:35:13 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:35:13 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:35:13 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:13 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:13 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:35:13 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:35:13 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:35:13 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:14 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:14 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:35:14 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:35:14 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:35:14 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:14 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:14 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:35:14 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:35:14 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:35:14 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:15 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:15 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:35:15 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:35:15 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:35:15 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:15 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:15 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:35:15 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:35:15 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:35:15 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:15 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:15 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:35:15 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:35:15 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:35:15 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:16 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:16 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:35:16 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:35:16 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:35:16 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:16 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:16 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:35:16 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:35:16 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:35:16 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:17 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:17 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:35:17 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:35:17 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:35:17 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:17 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:17 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:35:17 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:35:17 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:35:17 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:35:17 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:35:17 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:35:17 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:35:17 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:35:17 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:35:17 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:35:17 2018
+Thread exiting peacefully
+
+Sun Dec  2 20:36:23 2018
+Starting file sharing server at 127.0.0.1:8002
+
+Sun Dec  2 20:36:23 2018
+Unable to bind to file server address!
+
+Sun Dec  2 20:36:30 2018
+Starting file sharing server at 127.0.0.1:8003
+
+Sun Dec  2 20:36:45 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:36:47 2018
+File is available
+
+Sun Dec  2 20:36:47 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:36:47 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:36:47 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:36:47 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:47 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:47 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:36:47 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:36:47 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:36:47 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:48 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:48 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:36:48 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:36:48 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:36:48 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:48 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:48 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:36:48 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:36:48 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:36:48 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:48 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:48 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:36:48 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:36:48 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:36:48 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:49 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:49 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:36:49 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:36:49 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:36:49 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:49 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:49 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:36:49 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:36:49 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:36:49 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:50 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:50 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:36:50 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:36:50 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:36:50 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:50 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:50 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:36:50 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:36:50 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:36:50 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:50 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:50 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:36:50 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:36:50 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:36:50 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:51 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:51 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:36:51 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:36:51 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:36:51 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:51 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:51 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:36:51 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:36:51 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:36:51 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:36:52 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:36:52 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:36:52 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:36:52 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:36:52 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:36:52 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:36:52 2018
+Thread exiting peacefully
+
+Sun Dec  2 20:37:19 2018
+Starting file sharing server at 127.0.0.1:8004
+
+Sun Dec  2 20:38:16 2018
+Starting file sharing server at 127.0.0.1:8004
+
+Sun Dec  2 20:38:30 2018
+New connection received. Socket : 4
+
+Sun Dec  2 20:38:39 2018
+File is available
+
+Sun Dec  2 20:38:39 2018
+Requesting for hash : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:38:39 2018
+5f08579d5c81e7f5e6e2d1435a74be14f6121a27 is available
+
+Sun Dec  2 20:38:39 2018
+Hash requested : 5f08579d5c81e7f5e6e2d1435a74be14f6121a27
+
+Sun Dec  2 20:38:39 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:40 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:40 2018
+Requesting for hash : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:38:40 2018
+bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d is available
+
+Sun Dec  2 20:38:40 2018
+Hash requested : bb8f3e92a30605a3dcc3ad2b43c4a59dbbd58b1d
+
+Sun Dec  2 20:38:40 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:41 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:41 2018
+Requesting for hash : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:38:41 2018
+7fca1344319552072df77cf3f24ca49357110c81 is available
+
+Sun Dec  2 20:38:41 2018
+Hash requested : 7fca1344319552072df77cf3f24ca49357110c81
+
+Sun Dec  2 20:38:41 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:42 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:42 2018
+Requesting for hash : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:38:42 2018
+1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef is available
+
+Sun Dec  2 20:38:42 2018
+Hash requested : 1bb6c9fe910bc79ec30df62d3673d5d5c80a54ef
+
+Sun Dec  2 20:38:42 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:43 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:43 2018
+Requesting for hash : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:38:43 2018
+96fb10b9cbb03f2408e1b0de34ac384db13a6dea is available
+
+Sun Dec  2 20:38:43 2018
+Hash requested : 96fb10b9cbb03f2408e1b0de34ac384db13a6dea
+
+Sun Dec  2 20:38:43 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:44 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:44 2018
+Requesting for hash : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:38:44 2018
+c4dce52f5098f1df10a9525a14814beb400564e3 is available
+
+Sun Dec  2 20:38:44 2018
+Hash requested : c4dce52f5098f1df10a9525a14814beb400564e3
+
+Sun Dec  2 20:38:44 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:44 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:44 2018
+Requesting for hash : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:38:44 2018
+e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d is available
+
+Sun Dec  2 20:38:44 2018
+Hash requested : e0334f6f892b19e04f9c1a3bdbb7f7f79c7f750d
+
+Sun Dec  2 20:38:44 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:45 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:45 2018
+Requesting for hash : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:38:45 2018
+ae99145672211be5e1d4503e1fa752c23f0e82c1 is available
+
+Sun Dec  2 20:38:45 2018
+Hash requested : ae99145672211be5e1d4503e1fa752c23f0e82c1
+
+Sun Dec  2 20:38:45 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:46 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:46 2018
+Requesting for hash : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:38:46 2018
+cb289fdee4580617fbd609f4fc960d7a596571c5 is available
+
+Sun Dec  2 20:38:46 2018
+Hash requested : cb289fdee4580617fbd609f4fc960d7a596571c5
+
+Sun Dec  2 20:38:46 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:47 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:47 2018
+Requesting for hash : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:38:47 2018
+998d17365c442b046087420f799b656036077fe9 is available
+
+Sun Dec  2 20:38:47 2018
+Hash requested : 998d17365c442b046087420f799b656036077fe9
+
+Sun Dec  2 20:38:47 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:48 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:48 2018
+Requesting for hash : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:38:48 2018
+65db030d7f7d2ea7caf6a06019ddb85e8ac3256a is available
+
+Sun Dec  2 20:38:48 2018
+Hash requested : 65db030d7f7d2ea7caf6a06019ddb85e8ac3256a
+
+Sun Dec  2 20:38:48 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:48 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:48 2018
+Requesting for hash : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:38:48 2018
+90d7d547c1010384a908ee79db2ab9a9b2092198 is available
+
+Sun Dec  2 20:38:48 2018
+Hash requested : 90d7d547c1010384a908ee79db2ab9a9b2092198
+
+Sun Dec  2 20:38:48 2018
+Size of file sent : 524288
+
+Sun Dec  2 20:38:49 2018
+Received : 524288 B from the server
+
+Sun Dec  2 20:38:49 2018
+Requesting for hash : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:38:49 2018
+7d444fe779ffcafe5d16346bd63eaed73d819044 is available
+
+Sun Dec  2 20:38:49 2018
+Hash requested : 7d444fe779ffcafe5d16346bd63eaed73d819044
+
+Sun Dec  2 20:38:49 2018
+Size of file sent : 196952
+
+Sun Dec  2 20:38:50 2018
+Received : 196952 B from the server
+
+Sun Dec  2 20:38:50 2018
+Thread exiting peacefully
