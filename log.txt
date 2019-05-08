@@ -1,357 +1,45 @@
 
-Sat Dec  1 04:39:16 2018
-Starting file sharing server at 127.0.0.1:7000
-
-Sat Dec  1 04:40:41 2018
+Mon Dec  3 15:08:08 2018
 New connection received. Socket : 4
 
-Sat Dec  1 04:40:49 2018
-File is available
-
-Sat Dec  1 04:40:49 2018
-Requesting for hash : 2f2daf88cd743df74ad8d78b971efc7dbf0f3463
-
-Sat Dec  1 04:40:49 2018
-2f2daf88cd743df74ad8d78b971efc7dbf0f3463 is available
-
-Sat Dec  1 04:40:49 2018
-Hash requested : 2f2daf88cd743df74ad8d78b971efc7dbf0f3463
-
-Sat Dec  1 04:40:49 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:50 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:50 2018
-Requesting for hash : c50970283c6fc5fa51bc3740b885be8719c9165c
-
-Sat Dec  1 04:40:50 2018
-c50970283c6fc5fa51bc3740b885be8719c9165c is available
-
-Sat Dec  1 04:40:50 2018
-Hash requested : c50970283c6fc5fa51bc3740b885be8719c9165c
-
-Sat Dec  1 04:40:50 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:51 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:51 2018
-Requesting for hash : 795bf837ba72940b1645037d9931205ef373a1e3
-
-Sat Dec  1 04:40:51 2018
-795bf837ba72940b1645037d9931205ef373a1e3 is available
-
-Sat Dec  1 04:40:51 2018
-Hash requested : 795bf837ba72940b1645037d9931205ef373a1e3
-
-Sat Dec  1 04:40:51 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:52 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:52 2018
-Requesting for hash : 7feca517efa5828faeac0e31412714980587d7ab
-
-Sat Dec  1 04:40:52 2018
-7feca517efa5828faeac0e31412714980587d7ab is available
-
-Sat Dec  1 04:40:52 2018
-Hash requested : 7feca517efa5828faeac0e31412714980587d7ab
-
-Sat Dec  1 04:40:52 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:53 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:53 2018
-Requesting for hash : 61827bc672562bbbc5c7d8721623e53e664b9ba7
-
-Sat Dec  1 04:40:53 2018
-61827bc672562bbbc5c7d8721623e53e664b9ba7 is available
-
-Sat Dec  1 04:40:53 2018
-Hash requested : 61827bc672562bbbc5c7d8721623e53e664b9ba7
-
-Sat Dec  1 04:40:53 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:53 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:53 2018
-Requesting for hash : be7748017cb7d605c2138095a224ab5f2a5b6253
-
-Sat Dec  1 04:40:53 2018
-be7748017cb7d605c2138095a224ab5f2a5b6253 is available
-
-Sat Dec  1 04:40:53 2018
-Hash requested : be7748017cb7d605c2138095a224ab5f2a5b6253
-
-Sat Dec  1 04:40:53 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:54 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:54 2018
-Requesting for hash : 06d56e0021ded04fc6f602ca25ce17f48cf48832
-
-Sat Dec  1 04:40:54 2018
-06d56e0021ded04fc6f602ca25ce17f48cf48832 is available
-
-Sat Dec  1 04:40:54 2018
-Hash requested : 06d56e0021ded04fc6f602ca25ce17f48cf48832
-
-Sat Dec  1 04:40:54 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:55 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:55 2018
-Requesting for hash : 95fd912a626e9306eee0652b86d2fafc718d17a6
-
-Sat Dec  1 04:40:55 2018
-95fd912a626e9306eee0652b86d2fafc718d17a6 is available
-
-Sat Dec  1 04:40:55 2018
-Hash requested : 95fd912a626e9306eee0652b86d2fafc718d17a6
-
-Sat Dec  1 04:40:55 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:56 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:56 2018
-Requesting for hash : 2f25b8e18e7756462c618d0cc3e55f9764898727
-
-Sat Dec  1 04:40:56 2018
-2f25b8e18e7756462c618d0cc3e55f9764898727 is available
-
-Sat Dec  1 04:40:56 2018
-Hash requested : 2f25b8e18e7756462c618d0cc3e55f9764898727
-
-Sat Dec  1 04:40:56 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:57 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:57 2018
-Requesting for hash : 4acebb17b654cd7e1aa0552130d59bc6ce20ffc1
-
-Sat Dec  1 04:40:57 2018
-4acebb17b654cd7e1aa0552130d59bc6ce20ffc1 is available
-
-Sat Dec  1 04:40:57 2018
-Hash requested : 4acebb17b654cd7e1aa0552130d59bc6ce20ffc1
-
-Sat Dec  1 04:40:57 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:57 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:57 2018
-Requesting for hash : 0f1e70266b120512ff09d55d60d2065e30e77370
-
-Sat Dec  1 04:40:57 2018
-0f1e70266b120512ff09d55d60d2065e30e77370 is available
-
-Sat Dec  1 04:40:57 2018
-Hash requested : 0f1e70266b120512ff09d55d60d2065e30e77370
-
-Sat Dec  1 04:40:57 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:58 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:58 2018
-Requesting for hash : c3975a33047f3158a2b428e50de247d420f98697
-
-Sat Dec  1 04:40:58 2018
-c3975a33047f3158a2b428e50de247d420f98697 is available
-
-Sat Dec  1 04:40:58 2018
-Hash requested : c3975a33047f3158a2b428e50de247d420f98697
-
-Sat Dec  1 04:40:58 2018
-Size of file sent : 524288
-
-Sat Dec  1 04:40:59 2018
-Received : 524288 B from the server
-
-Sat Dec  1 04:40:59 2018
-Requesting for hash : 1d0dc72f57ed0ca8b30edf6a68343383695d0628
-
-Sat Dec  1 04:40:59 2018
-1d0dc72f57ed0ca8b30edf6a68343383695d0628 is available
-
-Sat Dec  1 04:40:59 2018
-Hash requested : 1d0dc72f57ed0ca8b30edf6a68343383695d0628
-
-Sat Dec  1 04:40:59 2018
-Size of file sent : 196894
-
-Sat Dec  1 04:40:59 2018
-Received : 196894 B from the server
-
-Sat Dec  1 04:40:59 2018
-Thread exiting peacefully
-
-Sun Dec  2 18:49:51 2018
-New connection received. Socket : 4
-
-Sun Dec  2 18:50:10 2018
-New connection received. Socket : 5
-
-Sun Dec  2 19:34:41 2018
-New connection received. Socket : 4
-
-Sun Dec  2 19:34:50 2018
-New connection received. Socket : 5
-
-Sun Dec  2 19:41:10 2018
-New connection received. Socket : 4
-
-Sun Dec  2 19:41:10 2018
+Mon Dec  3 15:08:08 2018
 Request from client : add_entry
 
-Sun Dec  2 19:41:10 2018
+Mon Dec  3 15:08:08 2018
 Entry from client : source/file1.txt;127.0.0.1:8000
 
-Sun Dec  2 19:41:10 2018
+Mon Dec  3 15:08:08 2018
 Locked on tracker_file_lock from save_tracker_entries
 
-Sun Dec  2 19:41:20 2018
-New connection received. Socket : 5
-
-Sun Dec  2 19:41:20 2018
-Request from client : add_entry
-
-Sun Dec  2 19:41:20 2018
-Entry from client : source/file1.txt;127.0.0.1:8001
-
-Sun Dec  2 19:42:50 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:42:56 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:42:57 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:42:58 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:42:59 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:43:02 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:43:03 2018
-Unable to bind to file server address!
-
-Sun Dec  2 19:44:14 2018
-New connection received. Socket : 4
-
-Sun Dec  2 19:44:14 2018
-Request from client : add_entry
-
-Sun Dec  2 19:44:14 2018
-Entry from client : source/file1.txt;127.0.0.1:8000
-
-Sun Dec  2 19:44:14 2018
-Locked on tracker_file_lock from save_tracker_entries
-
-Sun Dec  2 19:44:14 2018
+Mon Dec  3 15:08:08 2018
 Locked on tracker_file_lock from get_tracker_entries
 
-Sun Dec  2 19:44:14 2018
+Mon Dec  3 15:08:08 2018
 tracker_entries.txt does not exist. Returning an empty array
 
-Sun Dec  2 19:44:14 2018
+Mon Dec  3 15:08:08 2018
 Going to write 1into tracker_entries.txt
 
-Sun Dec  2 19:44:28 2018
+Mon Dec  3 15:10:02 2018
 New connection received. Socket : 5
 
-Sun Dec  2 19:44:28 2018
-Request from client : add_entry
-
-Sun Dec  2 19:44:28 2018
-Entry from client : source/file1.txt;127.0.0.1:8001
-
-Sun Dec  2 19:44:28 2018
-Locked on tracker_file_lock from save_tracker_entries
-
-Sun Dec  2 19:44:28 2018
-Locked on tracker_file_lock from get_tracker_entries
-
-Sun Dec  2 19:44:28 2018
-tracker_entries.txt does not exist. Returning an empty array
-
-Sun Dec  2 19:44:28 2018
-Going to write 1into tracker_entries.txt
-
-Sun Dec  2 20:25:22 2018
-New connection received. Socket : 4
-
-Sun Dec  2 20:25:22 2018
-Request from client : add_entry
-
-Sun Dec  2 20:25:22 2018
-Entry from client : source/file1.txt;127.0.0.1:8000
-
-Sun Dec  2 20:25:22 2018
-Locked on tracker_file_lock from save_tracker_entries
-
-Sun Dec  2 20:25:22 2018
-Locked on tracker_file_lock from get_tracker_entries
-
-Sun Dec  2 20:25:22 2018
-tracker_entries.txt does not exist. Returning an empty array
-
-Sun Dec  2 20:25:22 2018
-Going to write 1into tracker_entries.txt
-
-Sun Dec  2 20:27:28 2018
-New connection received. Socket : 5
-
-Sun Dec  2 20:27:28 2018
-Request from client : add_entry
-
-Sun Dec  2 20:27:28 2018
-Entry from client : source/file2.txt;127.0.0.1:8001
-
-Sun Dec  2 20:27:28 2018
-Locked on tracker_file_lock from save_tracker_entries
-
-Sun Dec  2 20:27:28 2018
-Locked on tracker_file_lock from get_tracker_entries
-
-Sun Dec  2 20:27:28 2018
-tracker_entries.txt does not exist. Returning an empty array
-
-Sun Dec  2 20:27:28 2018
-Going to write 2into tracker_entries.txt
-
-Sun Dec  2 20:38:30 2018
-New connection received. Socket : 4
-
-Sun Dec  2 20:38:30 2018
+Mon Dec  3 15:10:02 2018
 Request from client : get_ip_addresses
 
-Sun Dec  2 20:38:30 2018
+Mon Dec  3 15:10:02 2018
 Locked on tracker_file_lock from get_tracker_entries
 
-Sun Dec  2 20:38:30 2018
+Mon Dec  3 15:10:02 2018
+tracker_entries.txt does not exist. Returning an empty array
+
+Mon Dec  3 15:11:41 2018
+New connection received. Socket : 4
+
+Mon Dec  3 15:11:41 2018
+Request from client : get_ip_addresses
+
+Mon Dec  3 15:11:41 2018
+Locked on tracker_file_lock from get_tracker_entries
+
+Mon Dec  3 15:11:41 2018
 tracker_entries.txt does not exist. Returning an empty array
